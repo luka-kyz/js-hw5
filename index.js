@@ -8,34 +8,34 @@
 const drink = prompt("Введите какой напиток вы хотите"); 
 
 switch (drink) {
-    case "Кава":
-        alert("Вы выбрали Каву")
-    console.log("Кава");
+    case "кофе":
+        alert("вы выбрали Каву")
+    console.log("кофе");
     break;
   case "Чай":
-        console.log("Чай");
-        alert("Вы выбрали Чай")
+        console.log("чай");
+        alert("вы выбрали Чай")
     break;
   case "Сік":
-        console.log("Сік");
-        alert("Вы выбрали Сік")
+        console.log("сок");
+        alert("вы выбрали сок")
     break;
   default:
-        console.log("Вы выбрали не тот напиток");
-        alert("Вы не правильно ввел название напитка")
+        console.log("вы выбрали не тот напиток");
+        alert("вы не правильно ввел название напитка")
 }
 
 
 
-const day = prompt("Введите какой сейчас день недели"); 
+const day = prompt("введите какой сейчас день недели"); 
 
-if (day === "Суббота" || day === "Воскресенье") {
-    console.log("Выходной");
-    alert("Это выходной день")
+if (day === "суббота" || day === "воскресенье") {
+    console.log("выходной");
+    alert("это выходной день")
 } else if (
-  day === "Понедельник" ||
-  day === "Вторник" ||
-  day === "Серда" ||
+  day === "понедельник" ||
+  day === "вторник" ||
+  day === "среда" ||
   day === "четверг" ||
   day === "пятница"
 ) {
@@ -49,41 +49,41 @@ if (day === "Суббота" || day === "Воскресенье") {
 
 
 
-const month = Number(prompt("Введите номер месяца")); 
+const month = Number(prompt("введите номер месяца")); 
 
 switch (month) {
   case 12:
   case 1:
   case 2:
-        console.log("Зима");
-        alert("Это месяц зимы")
+        console.log("зима");
+        alert("это месяц зимы")
     break;
   case 3:
   case 4:
   case 5:
-        console.log("Весна");
-        alert("Это месяц весны")
+        console.log("весна");
+        alert("это месяц весны")
     break;
   case 6:
   case 7:
   case 8:
-        console.log("Лето");
-        alert("Это месяц лета")
+        console.log("лето");
+        alert("это месяц лета")
     break;
   case 9:
   case 10:
   case 11:
-        console.log("Осень");
-        alert("Это месяц осени")
+        console.log("осень");
+        alert("это месяц осени")
     break;
   default:
-        console.log("Не правильно");
+        console.log("не правильно");
         alert("не правильный номер")
 }
 
 
 
-const color = prompt("Введите какой цвет светофора"); 
+const color = prompt("введите какой цвет светофора"); 
 
 switch (color) {
   case "красный":
@@ -99,7 +99,7 @@ switch (color) {
         alert("ЖДИТЕ!!!!")
     break;
   default:
-        console.log("Не правильный");
+        console.log("не правильный");
         alert("не правильно")
 }
 
